@@ -29,7 +29,7 @@ open class HardwareConfig() {
 
     fun doBulk() {
         if (myOpMode.gamepad1.cross) {
-            lights.setPatternCo(RevBlinkinLedDriver.BlinkinPattern.ORANGE)
+            lights.setPatternCo(RevBlinkinLedDriver.BlinkinPattern.RED_ORANGE)
         } else if (myOpMode.gamepad1.circle) {
             lights.setPatternCo(RevBlinkinLedDriver.BlinkinPattern.CONFETTI)
         }
