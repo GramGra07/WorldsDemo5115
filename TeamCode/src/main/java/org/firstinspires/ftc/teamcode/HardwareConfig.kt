@@ -29,9 +29,9 @@ open class HardwareConfig() {
 
     fun doBulk() {
         if (myOpMode.gamepad1.cross) {
-            lights.setPatternCo(RevBlinkinLedDriver.BlinkinPattern.COLOR_WAVES_FOREST_PALETTE)
+            lights.setPatternCo(RevBlinkinLedDriver.BlinkinPattern.COLOR_WAVES_LAVA_PALETTE)
         } else if (myOpMode.gamepad1.circle) {
-            lights.setPatternCo(RevBlinkinLedDriver.BlinkinPattern.CONFETTI)
+            lights.setPatternCo(RevBlinkinLedDriver.BlinkinPattern.COLOR_WAVES_OCEAN_PALETTE)
         }
     }
 }
